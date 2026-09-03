@@ -19,6 +19,8 @@ public class Categoria {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Short id;
+
     private String nome;
+    
     private String descriçao;
 }
