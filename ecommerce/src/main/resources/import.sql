@@ -5,20 +5,20 @@ INSERT INTO categoria ( nome, descriçao) VALUES ('computador', 'Informática');
 INSERT INTO categoria ( nome, descriçao) VALUES ('forno', 'Casa');
 INSERT INTO categoria ( nome, descriçao) VALUES ('livro de matematica', 'Livros tecnicos');
 
-INSERT into produtos(nome , descriçao,preço , estoque , categoria_id) values ('Codigo Limpo','Livro do Autor Robert C Martins', 84,34,2);
-INSERT INTO produtos(nome,descriçao, preço,estoque, categoria_id) VALUES ('Smartphone','Smartphone de última geração', 1500.00,10 ,1);
+INSERT into produtos(nome , descriçao,preco , estoque , categoria_id) values ('Codigo Limpo','Livro do Autor Robert C Martins', 84,34,2);
+INSERT INTO produtos(nome,descriçao, preco,estoque, categoria_id) VALUES ('Smartphone','Smartphone de última geração', 1500.00,10 ,1);
 
-INSERT INTO produtos(nome, descriçao, preço, estoque, categoria_id) VALUES ('Codigo Limpo', 'Livro do Autor Robert C Martins', 84, 34, 2);
+INSERT INTO produtos(nome, descriçao, preco, estoque, categoria_id) VALUES ('Codigo Limpo', 'Livro do Autor Robert C Martins', 84, 34, 2);
 
-INSERT INTO produtos(nome, descriçao, preço, estoque, categoria_id) VALUES ('Smartphone', 'Smartphone de última geração', 1500.00, 10, 1);
+INSERT INTO produtos(nome, descriçao, preco, estoque, categoria_id) VALUES ('Smartphone', 'Smartphone de última geração', 1500.00, 10, 1);
 
-INSERT INTO produtos(nome, descriçao, preço, estoque, categoria_id) VALUES ('Notebook', 'Notebook de última geração', 3500.00, 10, 2);
+INSERT INTO produtos(nome, descriçao, preco, estoque, categoria_id) VALUES ('Notebook', 'Notebook de última geração', 3500.00, 10, 2);
 
-INSERT INTO produtos(nome, descriçao, preço, estoque, categoria_id) VALUES ('Cafeteira', 'Cafeteira elétrica', 300.00, 10, 3);
+INSERT INTO produtos(nome, descriçao, preco, estoque, categoria_id) VALUES ('Cafeteira', 'Cafeteira elétrica', 300.00, 10, 3);
 
-INSERT INTO produtos(nome, descriçao, preço, estoque, categoria_id) VALUES ('Livro Java', 'Livro para aprender programação Java', 100.00, 10, 4);
+INSERT INTO produtos(nome, descriçao, preco, estoque, categoria_id) VALUES ('Livro Java', 'Livro para aprender programação Java', 100.00, 10, 4);
 
-INSERT INTO produtos(nome, descriçao, preço, estoque, categoria_id) VALUES ('Bola de Futebol', 'Bola para prática de futebol', 120.00, 10, 5);
+INSERT INTO produtos(nome, descriçao, preco, estoque, categoria_id) VALUES ('Bola de Futebol', 'Bola para prática de futebol', 120.00, 10, 5);
 
 INSERT INTO cliente(id, nome, email, telefone) VALUES (1, 'João Silva', 'joao@email.com', '14999990001');
 
